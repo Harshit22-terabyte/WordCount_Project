@@ -1,0 +1,17 @@
+<!--THIS IS HTML FAM//
+<h1>Django is cool</h1>
+<b>Learning it </b>
+{{hithere}}
+-->
+
+<h1>Word Count </h1>
+
+<form action='{%url "count" %}'>
+    <textarea cols="50" rows="10" name="fulltext"></textarea>
+    <br />
+    <input type='submit' value='COUNT!' />
+
+</form>
+<form action="{%url 'about' %}" >
+    <input type='submit' value='ABOUT!'/>
+</form>
